@@ -106,7 +106,7 @@ const Hero = () => {
                         Room
                       </label>
                       <input
-                        type="text"
+                        type="number"
                         id="room"
                         className="text-lg px-2 py-1 outline-none w-56 bg-white/80 text-black"
                         placeholder="1"
@@ -117,7 +117,7 @@ const Hero = () => {
                         Guests
                       </label>
                       <input
-                        type="text"
+                        type="number"
                         id="guest"
                         className="text-lg px-2 py-1 outline-none w-56 bg-white/80 text-black"
                         placeholder="1"
