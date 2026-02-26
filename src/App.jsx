@@ -15,6 +15,7 @@ import RoomDetails from "./Pages/RoomDetails";
 import Services from "./Pages/Services";
 import BlogDetail from "./Pages/BlogDetail";
 import Error from "./Pages/Error";
+import BookNow from "./Pages/BookNow";
 
 function App() {
   return (
@@ -24,16 +25,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
-          <Route path="/our-rooms" element={<Room />} >
-          </Route>
-            <Route path="/room-details" element={<RoomDetails />} />
+          <Route path="/our-rooms" element={<Room />} />
+          <Route path="/room-details/:slug" element={<RoomDetails />} />
           <Route path="/contact-us" element={<Contact />} />
-          <Route path="/blogs" element={<Blog />}>
-            
-          </Route>
+          <Route path="/blogs" element={<Blog />} />
           <Route path="/blog-details" element={<BlogDetail />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/our-services" element={<Services />} />
+          <Route path="/book-now" element={<BookNow />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <WhatsAppBtn />

@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutImg1 from '../../../public/Images/Home-page/about1.jpg';
 import AboutImg2 from '../../../public/Images/Home-page/about2.jpg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
                             <li>laudantium totam rem aperiam, eaque ipsa quae.</li>
                             <li>ab illo inventore veritatis et quasi architecto beatae .</li>
                         </ul>
-                        <button className='uppercase border border-black hover:bg-black hover:text-white cursor-pointer text-center w-60 h-12'>View Rooms</button>
+                        <Link to={'/about-us'}><button className='uppercase border border-black hover:bg-black hover:text-white cursor-pointer text-center w-60 h-12'>Read More</button></Link>
                     </div>
                         <img src={AboutImg2} alt="About Image" className='h-100 w-full md:h-126 md:w-auto mt-8 md:mt-0 object-cover' />
                 </div>

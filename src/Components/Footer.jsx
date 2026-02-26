@@ -41,7 +41,6 @@ const Footer = () => {
                 <li><Link to={'/contact-us'}>Contact us</Link></li>
                 <li><Link to={'/gallery'}>Gallery</Link></li>
                 <li><Link to={'/our-services'}>Hotel Amenities</Link></li>
-                <li><Link to={'/room-details'}>Room Details</Link></li>
                 <li><Link to={'/blog-details'}>Blog Details</Link></li>
               </ul>
           </div>

@@ -9,9 +9,9 @@ import ChoiceImg6 from '../../../public/Images/About-page/aboutus1.jpg'
 
 const ChooseUs = () => {
     const choiceList = [
-        {id : 3, img : ChoiceImg1, marginTop : "mt-2 md:mt-48", title : "Prime Beachfront Location" , content : "Wake up to the sound of waves and enjoy breathtaking sea views every day."},
+        {id : 1, img : ChoiceImg1, marginTop : "mt-2 md:mt-48", title : "Prime Beachfront Location" , content : "Wake up to the sound of waves and enjoy breathtaking sea views every day."},
         {id : 2, img : ChoiceImg2, marginTop : "mt-2 md:mt-24", title : "Luxury Meets Comfort" , content : "Elegantly designed rooms and suites with modern amenities and cozy vibes."},
-        {id : 1, img : ChoiceImg3, marginTop : "mt-2", title : "All-in-One Experience" , content : "Spa, fine dining, pool, and excursions — all within the resort for a seamless stay."},
+        {id : 3, img : ChoiceImg3, marginTop : "mt-2", title : "All-in-One Experience" , content : "Spa, fine dining, pool, and excursions — all within the resort for a seamless stay."},
         {id : 4, img : ChoiceImg4, marginTop : "mt-2 md:mt-36", title : "Exceptional Guest Service" , content : "Our team is dedicated to making every guest feel at home, always."},
         {id : 5, img : ChoiceImg5, marginTop : "mt-2 md:mt-12", title : "Curated Packages & Deals" , content : "Romantic, family, or weekend getaways — we offer something for every kind of traveler."},
         {id : 6, img : ChoiceImg6, marginTop : "mt-2 md:-mt-12", title : "Close to Attractions" , content : "Explore local culture, nature, and adventure just minutes from your room."},

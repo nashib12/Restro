@@ -47,7 +47,7 @@ const Facilities = () => {
                 <h2 className='text-center text-3xl mb-4 uppercase tracking-wide'>Our Facilities</h2>
                     {facilitiesList.map(item => (
                         <div key={item.id} className='relative text-white'>
-                        <img src={item.img} alt="Facilities Imgae" className='h-90 w-full object-cover' />
+                        <img src={item.img} alt="Facilities Imgae" className='h-50 md:h-90 w-full object-cover' />
                         <div className='absolute inset-0 bg-black/40 w-full'/>
                         <div className='absolute inset-0 flex flex-col justify-end py-6 px-6'>
                              <h3 className='text-2xl uppercase'>{item.title}</h3>

@@ -76,9 +76,7 @@ const toggleAccordin = (id) => {
                         </div>
                     </div>
                 ))}
-                </div>
-                <button className='mt-2 text-white bg-[#153E4D] h-16 w-48 flex items-center justify-center text-xl cursor-pointer transition-colors duration-300 ease-out hover:bg-[#f5f5f5] hover:text-black font-semibold border border-black'>View Details</button>
-               
+                </div>               
             </div>
         </div>
    </section>

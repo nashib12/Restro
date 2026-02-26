@@ -7,9 +7,6 @@ import CloseBtnImg from "../../public/Icons/close.png";
 import MenuBtnImg from "../../public/Icons/align-left.png";
 import LocationImg from "../../public/Icons/office-building.png";
 import EnvelopeImg from "../../public/Icons/envelope.png";
-import SearchImg from "../../public/Icons/search.png";
-import CartImg from "../../public/Icons/trolley.png";
-import LogInImg from "../../public/Icons/log-out.png";
 import StarImg from "../../public/Icons/star.svg";
 import LogoImg from '../../public/Images/Logo.svg';
 import GalleryBgImg from '../../public/Images/Navbar/gallery.jpg';
@@ -19,7 +16,7 @@ import RoomImg3 from '../../public/Images/Navbar/room3.jpg';
 import RoomImg4 from '../../public/Images/Navbar/room4.jpg';
 import RoomImg5 from '../../public/Images/Navbar/room5.jpg';
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -61,11 +58,11 @@ const Navbar = () => {
   };
 
   const roomList = [
-    {id:1, img : RoomImg1, alt : "Room Image", title:"Beach Front Bungalow", price:"$1000"},
-    {id:2, img : RoomImg2, alt : "Room Image", title:"Mountain View Queen Room", price:"$550"},
-    {id:3, img : RoomImg3, alt : "Room Image", title:"Honeymoon Pool Villa", price:"$400"},
-    {id:4, img : RoomImg4, alt : "Room Image", title:"Luxury King Room", price:"$600"},
-    {id:5, img : RoomImg5, alt : "Room Image", title:"Standard Double Room", price:"$500"},
+    {id:1, img : RoomImg1, alt : "Room Image", title:"Beach Front Bungalow", slug : "beachfront-bungalow", price:"$1000"},
+    {id:2, img : RoomImg2, alt : "Room Image", title:"Mountain View Queen Room", slug : "mountain-view-queen-room", price:"$550"},
+    {id:3, img : RoomImg3, alt : "Room Image", title:"Honeymoon Pool Villa", slug : "honeymoon-pool-villa", price:"$400"},
+    {id:4, img : RoomImg4, alt : "Room Image", title:"Luxury King Room", slug : "luxury-king-room", price:"$600"},
+    {id:5, img : RoomImg5, alt : "Room Image", title:"Standard Double Room", slug: "Standard Double Room", price:"$500"},
   ];
 
   useEffect(() => {
@@ -85,12 +82,14 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const currentLocation = useLocation();
+
   return (
     <>
       <nav className={`fixed top-0 left-0 w-full z-50  ${isAtTop ? "" : "hidden"}`}>
         {/* Top navbar start */}
         <div className="border-b border-b-white">
-          <div className="flex items-center md:justify-between px-6 py-4">
+          <div className="flex items-center justify-center md:justify-between px-6 py-4">
             <ul className="flex gap-4">
               <li>
                 <img
@@ -163,33 +162,18 @@ const Navbar = () => {
             <li className="cursor-pointer nav-menu"><Link to={'/our-rooms'}>Rooms</Link> </li>
           </ul>
           <div className="flex flex-col items-center justify-center">
-            <img
+           <Link to={'/'} className="cursor-pointer"> <img
               src={StarImg}
               alt="StarImage"
               className="h-10 md:h-12 w-auto object-contain shrink-0"
-            />
+            /></Link>
           </div>
-          <ul className="flex items-center justify-end gap-4 md:gap-8">
-            <li className="cursor-pointer border-l border-l-white pl-4 md:pl-8">
-              <img
-                src={SearchImg}
-                alt="Search Button"
-                className="h-4 w-4 md:h-6 md:w-6 object-contain shrink-0 invert"
-              />
+          <ul className="flex items-center justify-end gap-4 md:gap-8 md:text-xl">
+            <li className="cursor-pointer nav-menu hidden md:block">
+              <Link to={'/contact-us'} >Contact Us</Link>
             </li>
-            <li className="cursor-pointer">
-              <img
-                src={CartImg}
-                alt="Cart Button"
-                className="h-4 w-4 md:h-6 md:w-6 object-contain shrink-0 invert"
-              />
-            </li>
-            <li className="cursor-pointer">
-              <img
-                src={LogInImg}
-                alt="Login Button"
-                className="h-4 w-4 md:h-6 md:w-6 object-contain shrink-0 invert"
-              />
+            <li className="cursor-pointer nav-menu">
+              <Link to={'/book-now'} className={`${currentLocation.pathname === '/' || currentLocation.pathname === '/book-now' ? "hidden" : "block"}`}> <button className="text-center h-10 w-36 border border-white cursor-pointer hover:bg-[#153E4D]">Book Now</button> </Link>
             </li>
           </ul>
         </div>
@@ -212,23 +196,24 @@ const Navbar = () => {
                         <li onMouseEnter={() => changeBackground(6) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/our-rooms'} onClick={() => setShowMenu(false)}>Rooms</Link></li>
                     </ul>
                     <div className="flex items-center justify-center">
-                        <button className="relative text-3xl border border-white p-4 w-full h-16 group overflow-hidden">
+                        <Link to={'/book-now'} onClick={() => setShowMenu(false)} className="w-full"><button className="relative text-3xl border border-white p-4 w-full group overflow-hidden">
                             <span className="text-white group-hover:text-black relative z-10">Book Now</span>
                             <span class="absolute w-full h-16 bg-white -left-72 bottom-6 -rotate-45 group-hover:rotate-0 group-hover:left-0 group-hover:bottom-0 duration-500"></span>
                             <span class="absolute w-full h-16 bg-white -right-86 bottom-6 -rotate-45 group-hover:rotate-0 group-hover:right-0 group-hover:bottom-0 duration-500"></span>
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
                 </div>
                 <div className="bg-black grid grid-cols-1 gap-4 py-6 px-4  ">
                     {roomList.map(item => (
                         <div key={item.id} className="relative rounded-xl group overflow-hidden cursor-pointer border border-gray-500">
-                        <img src={item.img} alt={item.alt} className="h-34 w-full object-cover rounded-xl transition-transform duration-500 ease-out group-hover:scale-110" />
+                        <Link to={`/room-details/${item.slug}`} onClick={() => setShowMenu(false)}><img src={item.img} alt={item.alt} className="h-34 w-full object-cover rounded-xl transition-transform duration-500 ease-out group-hover:scale-110" />
                         <div className="absolute inset-0 bg-black/60" />
                         <div className="absolute bottom-2 left-2 text-white px-4">
                             <h2 className="text-3xl">{item.title}</h2>
                             <span className="text-lg">{item.price}</span>
                         </div>
+                        </Link>
                     </div>
                     ))}
                 </div>
@@ -275,7 +260,7 @@ const Navbar = () => {
                     <li><Link to={'/gallery'} onClick={() => setMobileMenu(false)}>Gallery</Link></li>
                     <li><Link to={'/our-rooms'} onClick={() => setMobileMenu(false)}>Rooms</Link></li>
                 </ul>
-                <button className="w-80 h-14 text-2xl border border-white text-white">Book Now</button>
+               <Link to={'/book-now'} onClick={() => setMobileMenu(false)}><button className="w-80 h-14 text-2xl border border-white text-white">Book Now</button></Link>
             </div>
         </aside>
         </>)}

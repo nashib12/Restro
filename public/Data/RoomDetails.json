@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "slug": "beachfront-bungalow",
+    "title": "Beachfront Bungalow",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/beachfront-bungalow.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$1000",
+      "noOfBeds": "2 Beds",
+      "noOfBaths": "2 Baths",
+      "noOfPeople": "4 People",
+      "area": "1250 Sq.Ft."
+    }
+  },
+  {
+    "id": 2,
+    "slug": "mountain-view-queen-room",
+    "title": "Mountain View Queen Room",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/mountainview.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$550",
+      "noOfBeds": "2 Beds",
+      "noOfBaths": "1 Bath",
+      "noOfPeople": "4 People",
+      "area": "666 Sq.Ft."
+    }
+  },
+  {
+    "id": 3,
+    "slug": "honeymoon-pool-villa",
+    "title": "Honey Moon Pool Villa",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/honeymoon-pool.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$400",
+      "noOfBeds": "1 Bed",
+      "noOfBaths": "1 Bath",
+      "noOfPeople": "2 People",
+      "area": "600 Sq.Ft."
+    }
+  },
+  {
+    "id": 4,
+    "slug": "luxury-king-room",
+    "title": "Luxury King Room",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/luxury-king.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$600",
+      "noOfBeds": "2 Beds",
+      "noOfBaths": "2 Baths",
+      "noOfPeople": "4 People",
+      "area": "822 Sq.Ft."
+    }
+  },
+  {
+    "id": 5,
+    "slug": "standard-double-room",
+    "title": "Standard Double Room",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/standard-double.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$500",
+      "noOfBeds": "2 Beds",
+      "noOfBaths": "2 Baths",
+      "noOfPeople": "4 People",
+      "area": "750 Sq.Ft."
+    }
+  },
+  {
+    "id": 6,
+    "slug": "presidental-sea-view-suite",
+    "title": "Presidental Sea View Suite",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/presidental-sea.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$900",
+      "noOfBeds": "2 Beds",
+      "noOfBaths": "2 Baths",
+      "noOfPeople": "4 People",
+      "area": "666 Sq.Ft."
+    }
+  },
+  {
+    "garden-suite-with-balcony": {
+      "id": 7,
+      "slug": "garden-suite-with-balcony",
+      "title": "Garden Suite With Balcony",
+      "image": {
+        "roomImg": "/Images/Home-page/Rooms/garden-suite.jpg",
+        "detailImg1": "/Images/Room Details/detail1.jpg",
+        "detailImg2": "/Images/Room Details/detail2.jpg",
+        "detailImg3": "/Images/Room Details/detail3.jpg",
+        "detailImg4": "/Images/Room Details/detail4.jpg"
+      },
+      "overview": {
+        "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+        "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+        "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+        "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+        "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+      },
+      "nearbyAttr": {
+        "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+        "listItem1": "The infinity pool & beachfront bar",
+        "listItem2": "Fine dining restaurants",
+        "listItem3": "The spa & wellness center",
+        "listItem4": "Sunset deck and yoga pavilion"
+      },
+      "guestMsg": {
+        "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+        "author": "— A. Rahman, Guest from Dubai"
+      },
+      "time": {
+        "checkIn": "Check-In: 2:00 PM",
+        "checkOut": "Check-Out: 11:00 AM"
+      },
+      "idealFor": {
+        "para1": "This room is perfect for:",
+        "listItem1": "Couples on a romantic getaway",
+        "listItem2": "Solo travelers seeking luxury and peace",
+        "listItem3": "Business travelers wanting premium comfort"
+      },
+      "roomDetails": {
+        "price": "$280",
+        "noOfBeds": "1 Bed",
+        "noOfBaths": "1 Bath",
+        "noOfPeople": "2 People",
+        "area": "666 Sq.Ft."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "deluxe-ocean-view-room",
+    "title": "Deluxe Ocean View Room",
+    "image": {
+      "roomImg": "/Images/Home-page/Rooms/deluxe-ocean.jpg",
+      "detailImg1": "/Images/Room Details/detail1.jpg",
+      "detailImg2": "/Images/Room Details/detail2.jpg",
+      "detailImg3": "/Images/Room Details/detail3.jpg",
+      "detailImg4": "/Images/Room Details/detail4.jpg"
+    },
+    "overview": {
+      "para1": "Step into a world where the sky meets the sea — welcome to the Deluxe Ocean View Room at Resorto. Designed for guests who crave luxury with a view, this beautifully styled retreat offers an unmatched coastal experience from the moment you arrive.",
+      "para2": "Wake each morning to the calming rhythm of waves and golden sunlight pouring through full-length windows. Step onto your private balcony, where sweeping ocean panoramas and the scent of salt in the air invite you to slow down and savor the moment. Whether you're sipping a handcrafted espresso or watching the sun dip into the horizon, every detail is designed for comfort and calm.",
+      "para3": "Inside, the room boasts a harmonious blend of coastal elegance and modern design. Soft neutral tones, natural textures, and curated décor create a warm and restful environment. The plush king-size bed promises deep, uninterrupted sleep, while the spacious layout gives you plenty of room to stretch out, work, or simply unwind.",
+      "para4": "The bathroom is a spa-like sanctuary, complete with a walk-in rainfall shower, soft robes, and luxurious bath essentials. Every corner of this space is curated for both indulgence and function.",
+      "para6": "Whether you're planning a romantic escape, a solo retreat, or a quiet work-from-paradise getaway, the Deluxe Ocean View Room offers the perfect mix of inspiration and serenity."
+    },
+    "nearbyAttr": {
+      "para1": "Located in one of the resort’s most scenic wings, this room places you just steps away from:",
+      "listItem1": "The infinity pool & beachfront bar",
+      "listItem2": "Fine dining restaurants",
+      "listItem3": "The spa & wellness center",
+      "listItem4": "Sunset deck and yoga pavilion"
+    },
+    "guestMsg": {
+      "message": "The view from our balcony felt like a painting. We watched the sunrise every morning — it was magical.",
+      "author": "— A. Rahman, Guest from Dubai"
+    },
+    "time": {
+      "checkIn": "Check-In: 2:00 PM",
+      "checkOut": "Check-Out: 11:00 AM"
+    },
+    "idealFor": {
+      "para1": "This room is perfect for:",
+      "listItem1": "Couples on a romantic getaway",
+      "listItem2": "Solo travelers seeking luxury and peace",
+      "listItem3": "Business travelers wanting premium comfort"
+    },
+    "roomDetails": {
+      "price": "$320",
+      "noOfBeds": "1 Bed",
+      "noOfBaths": "1 Bath",
+      "noOfPeople": "2 People",
+      "area": "666 Sq.Ft."
+    }
+  }
+]

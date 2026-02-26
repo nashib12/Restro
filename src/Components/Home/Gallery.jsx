@@ -32,7 +32,7 @@ const Gallery = () => {
                   <img
                     src={item.img}
                     alt="Gallery Image"
-                    className="h-40 md:h-80 w-full object-cover"
+                    className="h-40 md:h-80 w-full object-cover mt-2"
                   />
                   <div className="bg-black/80 absolute inset-0 scale-0 group-hover:scale-96 origin-center transition-transform duration-300 ease-out" />
                   <div className="hidden group-hover:flex items-center justify-center absolute inset-0">

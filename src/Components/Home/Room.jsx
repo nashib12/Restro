@@ -13,6 +13,7 @@ import RoomImg6 from "../../../public/Images/Home-page/Rooms/standard-double.jpg
 import BathroomImg from "../../../public/Icons/bathroom.png";
 import BedImg from "../../../public/Icons/bed.png";
 import GuestImg from "../../../public/Icons/people.png";
+import { Link } from 'react-router-dom'
 
 const Room = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -42,6 +43,7 @@ const Room = () => {
       id: 1,
       img: RoomImg1,
       title: "Beachfront Bungalow",
+      slug : "beachfront-bungalow",
       price: "$1000",
       pPrice: "",
       beds: "2 Beds",
@@ -52,6 +54,7 @@ const Room = () => {
       id: 2,
       img: RoomImg2,
       title: "Honeymoon pool villa",
+      slug : "honeymoon-pool-villa",
       price: "$400",
       pPrice: "$440",
       beds: "1 Bed",
@@ -62,6 +65,7 @@ const Room = () => {
       id: 3,
       img: RoomImg3,
       title: "Luxury king room",
+      slug : "luxury-king-room",
       price: "$600",
       pPrice: "",
       beds: "2 Beds",
@@ -72,6 +76,7 @@ const Room = () => {
       id: 4,
       img: RoomImg4,
       title: "Mountain View Queen Rooom",
+      slug : "mountain-view-queen-room",
       price: "$500",
       pPrice: "",
       beds: "2 Beds",
@@ -82,6 +87,7 @@ const Room = () => {
       id: 5,
       img: RoomImg5,
       title: "Presidental Sea view suite",
+      slug : "presidental-sea-view-suite",
       price: "$900",
       pPrice: "$999",
       beds: "2 Beds",
@@ -92,6 +98,7 @@ const Room = () => {
       id: 6,
       img: RoomImg6,
       title: "Standard Double room",
+      slug : "standard-double-room",
       price: "$500",
       pPrice: "$550",
       beds: "2 Beds",
@@ -171,9 +178,9 @@ const Room = () => {
                       </p>
                     </div>
                     <div className="border-2 border-white" />
-                    <button className="uppercase border border-white text-white cursor-pointer flex items-center justify-center hover:bg-white hover:text-black h-12 w-48 ">
+                   <Link to={`/room-details/${item.slug}`}> <button className="uppercase border border-white text-white cursor-pointer flex items-center justify-center hover:bg-white hover:text-black h-12 w-48 ">
                       View Details
-                    </button>
+                    </button></Link>
                     <div className="hidden md:flex gap-4">
                       <div className="flex items-center gap-2">
                         <img

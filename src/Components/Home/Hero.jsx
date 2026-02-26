@@ -5,6 +5,7 @@ import HeroImg3 from "../../../public/Images/Home-page/hero3.jpg";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const autoplay = useRef(
@@ -51,7 +52,7 @@ const Hero = () => {
         <div className="relative overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {slides.map((item) => (
-              <div className="relative flex-[0_0_100%]">
+              <div  key={item.id} className="relative flex-[0_0_100%]">
                 <img
                   src={item.img}
                   alt={item.alt}
@@ -59,7 +60,7 @@ const Hero = () => {
                 />
                 <div className="absolute inset-0 bg-black/60" />
                 <div
-                  key={item.id}
+                 
                   className="absolute inset-0 text-white md:max-w-6xl mx-auto px-6 flex flex-col items-center justify-center text-center"
                 >
                   <h1 className="text-4xl md:text-[4.5rem] leading-12 md:leading-19 tracking-wider md:tracking-widest">
@@ -73,9 +74,9 @@ const Hero = () => {
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                   </div>
-                  <button className="h-14 w-60 border border-white text-xl cursor-pointer">
-                    View Details
-                  </button>
+                  <Link to={'/book-now'}><button className="h-14 w-60 border border-white text-xl cursor-pointer hover:bg-[#153E4D]">
+                    Book Now
+                  </button></Link>
                 </div>
                 <div className="absolute bottom-4 hidden lg:block px-8 text-white">
                   <div className="bg-white/40 px-8 py-6 flex items-end gap-6">

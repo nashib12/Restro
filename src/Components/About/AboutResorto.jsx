@@ -1,6 +1,7 @@
 import React from 'react'
 import Image1 from '../../../public/Images/About-page/aboutus4.jpg'
 import Image2 from '../../../public/Images/About-page/aboutus5.jpg'
+import { Link } from 'react-router-dom'
 
 const AboutResorto = () => {
   return (
@@ -11,7 +12,7 @@ const AboutResorto = () => {
                 <span className='uppercase textlg md:text-xl tracking-wide'>Resorto</span>
                 <h2 className='uppercase text-2xl md:text-4xl tracking-wide md:leading-8 mb-2'>Where Every Stay Feels Special</h2>
                 <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-                <button className='mt-8 h-12 w-36 flex items-center justify-center bg-[#153E4D] cursor-pointer text-white'>View Rooms</button>
+                <Link to={'/our-rooms'}><button className='mt-8 h-12 w-36 flex items-center justify-center bg-[#153E4D] cursor-pointer text-white'>View Rooms</button></Link>
                 <img src={Image1} alt="About Image" className='mt-12 w-full h-80 hidden md:block object-cover' />
             </div>
             <div className='flex flex-col gap-4'>
