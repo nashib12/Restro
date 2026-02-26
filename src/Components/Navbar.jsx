@@ -144,7 +144,7 @@ const Navbar = () => {
         </div>
         {/* Top navbar start */}
         {/* Bottom Navbar start */}
-        <div className="grid grid-cols-[auto_1fr_auto] md:grid-cols-[1fr_1fr_1fr] px-6 py-4 text-white">
+        <div className="grid grid-cols-3 md:grid-cols-[1fr_1fr_1fr] px-6 py-4 text-white">
             <button className="block md:hidden" onClick={() => setMobileMenu(true)}> <img src={MenuBtnImg} alt="Menu Button" className="h-8 w-8 object-contain shrink-0 invert" /> </button>
           <ul className="hidden md:flex items-center gap-14 text-xl">
             <li
@@ -173,7 +173,7 @@ const Navbar = () => {
               <Link to={'/contact-us'} >Contact Us</Link>
             </li>
             <li className="cursor-pointer nav-menu">
-              <Link to={'/book-now'} className={`${currentLocation.pathname === '/' || currentLocation.pathname === '/book-now' ? "hidden" : "block"}`}> <button className="text-center h-10 w-36 border border-white cursor-pointer hover:bg-[#153E4D]">Book Now</button> </Link>
+              <Link to={'/book-now'} className={`${currentLocation.pathname === '/' || currentLocation.pathname === '/book-now' ? "hidden" : "block"}`}> <button className="text-center h-10 w-24 md:w-36 border border-white cursor-pointer hover:bg-[#153E4D]">Book Now</button> </Link>
             </li>
           </ul>
         </div>
