@@ -7,6 +7,7 @@ import TikTokImg from '../../public//Icons/tik-tok.png'
 import PhoneImg from '../../public/Icons/phone.png'
 import HomeImg from '../../public/Icons/home.png'
 import EnvelopeImg from '../../public/Icons/envelope.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -28,19 +29,20 @@ const Footer = () => {
           <div>
               <h3 className='uppercase text-xl md:text-3xl mb-6'>Quick Links</h3>
               <ul className='flex flex-col gap-4 px-2 md:text-lg'>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Our Rooms</li>
-                <li>Blogs</li>
+                <li><Link to={'/'}>Home</Link></li>
+                <li><Link to={'/about-us'}>About us</Link></li>
+                <li><Link to={'/our-rooms'}>Our Rooms</Link></li>
+                <li><Link to={'/blogs'}>Blogs</Link></li>
               </ul>
           </div>
           <div>
               <h3 className='uppercase text-xl md:text-3xl mb-6'>Our Service</h3>
               <ul className='flex flex-col gap-4 px-2 md:text-lg'>
-                <li>Contact us</li>
-                <li>Gallery</li>
-                <li>Hotel Amenities</li>
-                <li>Licensing</li>
+                <li><Link to={'/contact-us'}>Contact us</Link></li>
+                <li><Link to={'/gallery'}>Gallery</Link></li>
+                <li><Link to={'/our-services'}>Hotel Amenities</Link></li>
+                <li><Link to={'/room-details'}>Room Details</Link></li>
+                <li><Link to={'/blog-details'}>Blog Details</Link></li>
               </ul>
           </div>
         </div>

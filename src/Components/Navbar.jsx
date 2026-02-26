@@ -206,9 +206,9 @@ const Navbar = () => {
                     <ul className="flex flex-col items-center gap-12">
                         <li onMouseEnter={() => changeBackground(1) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/'} onClick={() => setShowMenu(false)}>Home</Link></li>
                         <li onMouseEnter={() => changeBackground(2) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/about-us'} onClick={() => setShowMenu(false)}>About</Link></li>
-                        <li onMouseEnter={() => changeBackground(3) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/'} onClick={() => setShowMenu(false)}>Blogs</Link></li>
+                        <li onMouseEnter={() => changeBackground(3) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/blogs'} onClick={() => setShowMenu(false)}>Blogs</Link></li>
                         <li onMouseEnter={() => changeBackground(4) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/contact-us'} onClick={() => setShowMenu(false)}>Contact</Link></li>
-                        <li onMouseEnter={() => changeBackground(5) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/'} onClick={() => setShowMenu(false)}>Gallery</Link></li>
+                        <li onMouseEnter={() => changeBackground(5) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/gallery'} onClick={() => setShowMenu(false)}>Gallery</Link></li>
                         <li onMouseEnter={() => changeBackground(6) } onMouseLeave={() => changeBackground()} className="text-4xl cursor-pointer"><Link to={'/our-rooms'} onClick={() => setShowMenu(false)}>Rooms</Link></li>
                     </ul>
                     <div className="flex items-center justify-center">
@@ -270,9 +270,9 @@ const Navbar = () => {
                 <ul className="flex flex-col gap-8 text-white items-center justify-center mb-12 text-2xl">
                     <li><Link to={'/'} onClick={() => setMobileMenu(false)}>Home</Link></li>
                     <li><Link to={'/about-us'} onClick={() => setMobileMenu(false)}>About</Link></li>
-                    <li><Link to={'/'} onClick={() => setMobileMenu(false)}>Blogs</Link></li>
+                    <li><Link to={'/blogs'} onClick={() => setMobileMenu(false)}>Blogs</Link></li>
                     <li><Link to={'/contact-us'} onClick={() => setMobileMenu(false)}>Contact</Link></li>
-                    <li><Link to={'/'} onClick={() => setMobileMenu(false)}>Gallery</Link></li>
+                    <li><Link to={'/gallery'} onClick={() => setMobileMenu(false)}>Gallery</Link></li>
                     <li><Link to={'/our-rooms'} onClick={() => setMobileMenu(false)}>Rooms</Link></li>
                 </ul>
                 <button className="w-80 h-14 text-2xl border border-white text-white">Book Now</button>
