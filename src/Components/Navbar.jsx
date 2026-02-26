@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import FacebookImg from "../../public/Icons/facebook.png";
-import LinkedinImg from "../../public/Icons/Linkedin.png";
+import LinkedinImg from "../../public/Icons/linkedin.png";
 import TikTokImg from "../../public/Icons/tik-tok.png";
 import YoutubeImg from "../../public/Icons/youtube.png";
 import CloseBtnImg from "../../public/Icons/close.png";
