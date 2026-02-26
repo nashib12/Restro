@@ -62,7 +62,7 @@ const Navbar = () => {
     {id:2, img : RoomImg2, alt : "Room Image", title:"Mountain View Queen Room", slug : "mountain-view-queen-room", price:"$550"},
     {id:3, img : RoomImg3, alt : "Room Image", title:"Honeymoon Pool Villa", slug : "honeymoon-pool-villa", price:"$400"},
     {id:4, img : RoomImg4, alt : "Room Image", title:"Luxury King Room", slug : "luxury-king-room", price:"$600"},
-    {id:5, img : RoomImg5, alt : "Room Image", title:"Standard Double Room", slug: "Standard Double Room", price:"$500"},
+    {id:5, img : RoomImg5, alt : "Room Image", title:"Standard Double Room", slug: "standard-double-room", price:"$500"},
   ];
 
   useEffect(() => {

@@ -14,7 +14,7 @@ const BlogDetail = () => {
                 <button className='bg-[#153E4D] text-center h-8 md:h-12 w-24 md:text-lg'>Corporate</button>
                 <h1 className='mt-3 text-2xl md:text-7xl tracking-wide md:tracking-wider md:leading-18 text-center'>How to build a strong brand identity</h1>
                 <div className='flex flex-col md:flex-row items-center justify-center gap-2 mt-3'>
-                    <div className='flex flex-col md:flex-col items-center justify-center gap-2'>
+                    <div className='flex flex-col md:flex-row items-center justify-center gap-2'>
                         <img src={ProfileImage} alt="Profile Image" className='h-8 w-8 md:h-14 md:w-14 rounded-full object-cover' />
                         <h2>Sara Lee </h2>
                     </div>
@@ -34,7 +34,7 @@ const BlogDetail = () => {
         <p className='mb-3'>Our approach is rooted in creativity, innovation, and strategic thinking. We work closely with you to ensure every project aligns with your goals.</p>
         <p className='mb-3'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean euismod libero ut lacus fermentum, nec hendrerit orci accumsan.</p>
         <div className='my-6 bg-[#153E4D] px-3 py-6 md:px-6 '>
-            <p className='text-2xl md:text-3xl text-white'>"Success is not just about having great ideas; it's about turning those ideas into reality with passion and persistence."</p>
+            <p className='text-2xl md:text-3xl text-white'>"Success is not just about having great ideas, it's about turning those ideas into reality with passion and persistence."</p>
         </div>
         <h2 className='uppercase text-2xl md:text-4xl tracking-wider mt-3 md:mt-6'>Why Choose Us</h2>
         <p className='mb-3'>We follow a streamlined process to ensure timely and high-quality delivery. From concept to completion, we keep you involved every step of the way.</p>

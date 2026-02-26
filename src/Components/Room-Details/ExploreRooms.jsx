@@ -52,7 +52,8 @@ const ExploreRooms = () => {
               alt={room.title}
               className="h-full w-full object-cover rounded-md shadow-md"
             />
-            <div className="bg-black/20 absolute inset-0 transition-color duration-300 ease-in-out group-hover:bg-black/40" />
+            <div className="bg-black/40 absolute inset-0 transition-color duration-300 ease-in-out" />
+            <div className="absolute inset-0 transition-color duration-300 ease-in-out group-hover:bg-white/10" />
             <div className="absolute bottom-2 m-2 md:m-6 text-white ">
               <div className="flex flex-col overflow-hidden transform transition-transform duration-700 ease-in-out translate-y-10 md:translate-y-40 group-hover:translate-y-0">
                 <h2 className="md:tracking-wide text-lg md:text-4xl md:whitespace-nowrap">

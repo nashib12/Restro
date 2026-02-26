@@ -61,12 +61,12 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-black/60" />
                 <div
                  
-                  className="absolute inset-0 text-white md:max-w-6xl mx-auto px-6 flex flex-col items-center justify-center text-center"
+                  className="absolute inset-0 text-white md:max-w-6xl mx-auto px-6 flex flex-col items-center justify-center text-center mb-8"
                 >
-                  <h1 className="text-4xl md:text-[4.5rem] leading-12 md:leading-19 tracking-wider md:tracking-widest">
+                  <h1 className="text-3xl md:text-[4.2rem] leading-8 md:leading-18 tracking-wider">
                     {item.title}
                   </h1>
-                  <div className="border-t border-t-white py-6 md:max-w-3xl my-8">
+                  <div className="border-t border-t-white py-4 md:py-6 md:max-w-3xl my-2 md:my-8">
                     <p className="text-md md:text-lg ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed do eiusmod tempor incididunt ut labore et dolore magna

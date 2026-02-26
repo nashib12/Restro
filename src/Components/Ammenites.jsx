@@ -44,11 +44,11 @@ const Ammenites = ({setCol, setHeight}) => {
 
   return (
     <div className="px-6 py-12 md:py-24 flex flex-col items-center justify-center gap-2">
-        <p className='text-2xl tracking-wide uppercase'>Amenities</p>
-        <h2 className='text-3xl md:text-6xl md:tracking-wider uppercase'>Our Hotel Amenities</h2>
-        <div className={`mt-4 md:mt-6 ${setCol}`}>
+        <p className='text-xl md:text-2xl tracking-wide uppercase'>Amenities</p>
+        <h2 className='text-3xl text-center md:text-6xl md:tracking-wider uppercase'>Our Hotel Amenities</h2>
+        <div className={`${setCol}`}>
             {serviceList.map(item => (
-            <div key={item.id} className={`relative ${setHeight} overflow-hidden cursor-pointer group`}>
+            <div key={item.id} className={`relative ${setHeight} overflow-hidden cursor-pointer group mt-4 md:mt-6 `}>
                 <img src={item.bgImg} alt={item.title} className='h-full w-full object-cover' />
                 <div className='bg-[#153E4D] absolute inset-0 translate-x-0 group-hover:-translate-x-full transition-transform duration-300 ease-out' />
                 <div className='absolute inset-0 h-full flex items-center justify-center gap-4 flex-col'>

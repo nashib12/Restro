@@ -65,7 +65,7 @@ const PricingDetails = ({onDisplayData}) => {
         <img src={LuaggageImg} alt="Luggage Image" className='h-12 w-12 object-cover invert' />
         <p>Luggage Storage</p>
       </div>
-      <Link to={'/book-now'}><button className='mt-3 flex items-center justify-center w-full h-16 cursor-pointer border-black bg-white text-3xl uppercase text-black'>Book Now</button></Link>
+      <Link to={'/book-now'}><button className='mt-3 flex items-center justify-center w-full h-12 md:h-16 cursor-pointer border-black bg-white text-xl md:text-3xl uppercase text-black'>Book Now</button></Link>
     </div>
   )
 }
